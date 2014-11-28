@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "name": "SoundCloud",
+  "description": "Hear the world's sounds",
+  "icons": {
+    "32": "https://raw.githubusercontent.com/FabianOvrWrt/custom-icons/master/soundcloud/32.png",
+    "60": "https://raw.githubusercontent.com/FabianOvrWrt/custom-icons/master/soundcloud/60.png",
+    "128": "https://raw.githubusercontent.com/FabianOvrWrt/custom-icons/master/soundcloud/128.png",
+    "284": "https://raw.githubusercontent.com/FabianOvrWrt/custom-icons/master/soundcloud/284.png"
+  },
+  "developer": {
+    "name": "SoundCloud LTD",
+    "url": "https://soundcloud.com"
+  },
+  "chrome": {
+    "navigation": true
+  },
+  "permissions": {
+    "audio-channel-content": {
+      "description": "Enable audio for SoundCloud"
+    }
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "chrome": {
+    "navigation": true
+  }
+}
