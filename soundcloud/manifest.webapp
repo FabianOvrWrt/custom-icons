@@ -12,9 +12,6 @@
     "name": "SoundCloud LTD",
     "url": "https://soundcloud.com"
   },
-  "chrome": {
-    "navigation": true
-  },
   "permissions": {
     "audio-channel-content": {
       "description": "Enable audio for SoundCloud"
@@ -24,7 +21,5 @@
     "*"
   ],
   "default_locale": "en",
-  "chrome": {
-    "navigation": true
-  }
+  "fullscreen": "false"
 }
